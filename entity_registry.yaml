@@ -6,6 +6,7 @@ sensor.illumination_7811dcb23fec:
   name: Iluminacion Gateway Salon
   platform: xiaomi_aqara
   unique_id: illumination7811dcb23fec
+  key: secret! gateway_light
 sensor.pressure_158d00022ca9da:
   name: Presion Cuarto de Banho
   platform: xiaomi_aqara
@@ -18,10 +19,7 @@ light.gateway_light_7811dcb23fec:
   name: Luz Gateway Salon
   platform: xiaomi_aqara
   unique_id: rgb7811dcb23fec
-xiaomi_aqara:
-  gateways:
-    - mac: 78:11:DC:B2:3F:EC
-      key: secret! gateway_light
+  key: secret! gateway_light
 binary_sensor.cube_158d000101bb93:
   name: Cubo Mesilla Fer
   platform: xiaomi_aqara
