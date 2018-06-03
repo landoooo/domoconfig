@@ -21,7 +21,7 @@ light.gateway_light_7811dcb23fec:
 xiaomi_aqara:
   gateways:
     - mac: 78:11:DC:B2:3F:EC
-    - key: secret! gateway_light
+      key: secret! gateway_light
 binary_sensor.cube_158d000101bb93:
   name: Cubo Mesilla Fer
   platform: xiaomi_aqara
