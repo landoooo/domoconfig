@@ -1,53 +1,53 @@
 sensor.humidity_158d00022ca9da:
-  name:
+  name: Humedad Cuarto de Banho
   platform: xiaomi_aqara
   unique_id: humidity158d00022ca9da
 sensor.illumination_7811dcb23fec:
-  name:
+  name: Iluminacion Gateway Salon
   platform: xiaomi_aqara
   unique_id: illumination7811dcb23fec
 sensor.pressure_158d00022ca9da:
-  name:
+  name: Presion Cuarto de Banho
   platform: xiaomi_aqara
   unique_id: pressure158d00022ca9da
 sensor.temperature_158d00022ca9da:
-  name:
+  name: Temperatura Cuarto de Banho
   platform: xiaomi_aqara
   unique_id: temperature158d00022ca9da
 light.gateway_light_7811dcb23fec:
-  name:
+  name: Luz Gateway Salon
   platform: xiaomi_aqara
   unique_id: rgb7811dcb23fec
   key: secret! gateway.light
 binary_sensor.cube_158d000101bb93:
-  name:
+  name: Cubo Mesilla Fer
   platform: xiaomi_aqara
   unique_id: cube158d000101bb93
 binary_sensor.switch_158d0001f4bd46:
-  name:
+  name: Interruptor Cris Mesilla
   platform: xiaomi_aqara
   unique_id: status158d0001f4bd46
 binary_sensor.door_window_sensor_158d000200ab5a:
-  name:
+  name: Sensor Puerta Entrada
   platform: xiaomi_aqara
   unique_id: status158d000200ab5a
 binary_sensor.wall_switch_158d00015efc75:
-  name:
+  name: Interruptor Luz Habitacion Fer y Cris
   platform: xiaomi_aqara
   unique_id: channel_0158d00015efc75
 media_player.salon:
-  name:
+  name: Chromecast Video TV Salon
   platform: cast
   unique_id: aaeb9846-9c0f-293b-e664-1984ece26415
 media_player.casa:
-  name:
+  name: BroadChromeCast Audio Casa
   platform: cast
   unique_id: 1e0c3469-b43a-4890-843b-4cc259160a2b
 media_player.salon_2:
-  name:
+  name: Chromecast Audio Salon
   platform: cast
   unique_id: 3f0b9b8a-2581-3fda-4fab-5220c94fe5ae
 media_player.dormitorio:
-  name:
+  name: Chromecast Audio Habitacion Fer y Cris
   platform: cast
   unique_id: b14325c7-adde-4bf1-1387-e7a9bb26a54d
