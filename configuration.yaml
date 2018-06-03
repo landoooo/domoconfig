@@ -69,3 +69,8 @@ cloud:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+xiaomi_aqara:
+  discovery_retry: 5
+  gateways:
+    - key: we2rzycgdsb3qt84
