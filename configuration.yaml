@@ -82,6 +82,10 @@ cloud:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+light: !include lights.yaml
+sensor: !include sensors.yaml
+binary_sensor: !include binary_sensors.yaml
+media_player: !include media_players.yaml
 
 xiaomi_aqara:
   discovery_retry: 5
@@ -92,12 +96,3 @@ device_tracker:
   - platform: google_maps
     username: FerBarrosLOC
     password: !secret ferBarrosLOCPassword
-
-light:
-  - platform: yeelight
-    devices:
-      192.168.1.149:
-        name: Habitacion Fer y Cris
-        transition: 2000
-        use_music_mode: True #(defaults to False)
-        save_on_change: False #(defaults to True)
