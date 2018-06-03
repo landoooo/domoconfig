@@ -58,6 +58,19 @@ sun:
 # Weather prediction
 sensor:
   - platform: yr
+    name: Tiempo Fuera
+    forecast: 24
+    monitored_conditions:
+      - temperature
+      - symbol
+      - precipitation
+      - windSpeed
+      - pressure
+      - windDirection
+      - humidity
+      - fog
+      - cloudiness
+      - dewpointTemperature
 
 # Text to speech
 tts:
