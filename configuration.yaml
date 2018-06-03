@@ -82,6 +82,7 @@ cloud:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+sensors: !include sensors.yaml
 
 xiaomi_aqara:
   discovery_retry: 5
