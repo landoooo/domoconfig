@@ -1,17 +1,15 @@
-humidity_158d00022ca9da:
-  name: Humedad Cuarto de Banho
-  platform: xiaomi_aqara
-  unique_id: humidity158d00022ca9da
-illumination_7811dcb23fec:
-  name: Iluminacion Gateway Salon
-  platform: xiaomi_aqara
-  unique_id: illumination7811dcb23fec
-  key: secret! gateway_light
-pressure_158d00022ca9da:
-  name: Presion Cuarto de Banho
-  platform: xiaomi_aqara
-  unique_id: pressure158d00022ca9da
-temperature_158d00022ca9da:
-  name: Temperatura Cuarto de Banho
-  platform: xiaomi_aqara
-  unique_id: temperature158d00022ca9da
+- platform: xiaomi_aqara
+    name: Humedad Cuarto de Banho
+    unique_id: humidity158d00022ca9da
+
+- platform: xiaomi_aqara
+    name: Iluminacion Gateway Salon
+    unique_id: illumination7811dcb23fec
+
+- platform: xiaomi_aqara
+    name: Presion Cuarto de Banho
+    unique_id: pressure158d00022ca9da
+
+- platform: xiaomi_aqara
+    name: Temperatura Cuarto de Banho
+    unique_id: temperature158d00022ca9da
