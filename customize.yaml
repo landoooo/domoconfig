@@ -1,0 +1,12 @@
+media_player.casa:
+  friendly_name: CASA (Reproductores multimedia)
+binary_sensor.cube_158d000101bb93:
+  friendly_name: Cubo Xiaomi Dormitorio
+binary_sensor.door_window_sensor_158d000200ab5a:
+  friendly_name: Sensor Xiaomi Puerta Entrada
+media_player.dormitorio:
+  friendly_name: Dormitorio FeryCris ChromeCast Audio
+binary_sensor.switch_158d0001f4bd46:
+  friendly_name: Interruptor Xiaomi Mesilla Cris
+light.gateway_light_7811dcb23fec:
+  friendly_name: Gateway Xiaomi Luz
