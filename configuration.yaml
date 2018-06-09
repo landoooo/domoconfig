@@ -113,6 +113,6 @@ telegram_bot:
       - 616998221
 
 notify:
-  - name: NOTIFIER_NAME
+  - name: Telegram_Notifier_General
     platform: telegram
     chat_id: 616998221

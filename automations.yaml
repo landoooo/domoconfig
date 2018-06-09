@@ -1,9 +1,10 @@
 - alias: Check sensor value and show notification
   trigger:
     platform: numeric_state
-    entity_id: sensor.random_sensor
-    above: 10
+    entity_id: sensor.humidity_158d00022ca9da
+    above: 80
   action:
-    service: persistent_notification.create
+    service: notify.Telegram_Notifier_General
     data:
-      message: "Sensor value greater than 10"
+      title: 'Humidity @ Bathroom'
+      message: 'That's an example that _sends_ a *formatted* message with a custom inline keyboard.'
