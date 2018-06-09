@@ -99,10 +99,20 @@ light:
       192.168.1.149:
         name: Habitacion_Fer_y_Cris
         transition: 1000
-        save_on_change: False #(defaults to True)
+        save_on_change: False
 
   - platform: xiaomi_aqara
     devices:
       name: Luz Gateway Salon
       unique_id: rgb7811dcb23fec
 
+telegram_bot:
+  - platform: polling
+    api_key: 601314479:AAGU9kvL2H9a9e9VbaK6eo0uzgMzmjOccGs
+    allowed_chat_ids:
+      - 616998221
+
+notify:
+  - name: NOTIFIER_NAME
+    platform: telegram
+    chat_id: 616998221
