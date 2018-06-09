@@ -7,4 +7,4 @@
     service: notify.Telegram_Notifier_General
     data:
       title: 'Humidity @ Bathroom'
-      message: 'That's an example that _sends_ a *formatted* message with a custom inline keyboard.'
+      message: 'Message body'
