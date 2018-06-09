@@ -108,7 +108,7 @@ light:
 
 telegram_bot:
   - platform: polling
-    api_key: 601314479:AAGU9kvL2H9a9e9VbaK6eo0uzgMzmjOccGs
+    api_key: !secret telegram_bot.api_key
     allowed_chat_ids:
       - 616998221
 
