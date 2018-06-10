@@ -12,6 +12,7 @@ homeassistant:
   time_zone: Europe/Brussels
   # Customization file
   customize: !include customize.yaml
+  packages: !include_dir_named packages
 
 # Show links to resources in log and frontend
 introduction:
@@ -72,7 +73,7 @@ sensor:
       - cloudiness
       - dewpointTemperature
 
-packages: !include_dir_named packages
+
 
 # Text to speech
 tts:
