@@ -7,6 +7,6 @@
     service: notify.Telegram_Notifier_General
     data:
       title: 'Humidity @ Bathroom over 80%'
-      message: "Humidity @ Bathroom is {{ states.sensor.humidity_158d00022ca9da.state }}%. Think about ventilating the appartment :)"'
+      message: "Humidity @ Bathroom is {{ states.sensor.humidity_158d00022ca9da.state }}%. Think about ventilating the appartment :)"
 
 
