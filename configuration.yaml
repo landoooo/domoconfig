@@ -72,6 +72,8 @@ sensor:
       - cloudiness
       - dewpointTemperature
 
+packages: !include_dir_named packages
+
 # Text to speech
 tts:
   - platform: google
